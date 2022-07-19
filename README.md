@@ -20,7 +20,8 @@ yolo.py中修改输出方式
  cmake ..  
  make  
  
- 6.结果
+ 6.结果  
+ 
  ![image](https://user-images.githubusercontent.com/68861091/179707816-5a39d61c-15f3-49a1-b80c-7a01f1da472b.png)
 
  
