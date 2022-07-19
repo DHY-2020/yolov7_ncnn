@@ -1,6 +1,7 @@
 
 #include "yolov7.h"
 #include <chrono>
+#include <classnames.hpp>
 
 using namespace std;
 using namespace cv;
@@ -137,8 +138,11 @@ int main()
             src_img,
             cv::Rect(obj.x, obj.y, obj.w, obj.h),
             cv::Scalar(255,0,0),
-            5
+            3
         );
+        string label = format("%.2f", obj.prob);
+        label = classnames_list[obj.label]+":"+label;
+        putText(src_img, label, Point(obj.x, obj.y), FONT_HERSHEY_SIMPLEX, 0.75, Scalar(0, 255, 0), 2);
     }
     float scale2 = 0.3f;
     cv::imshow("detect", src_img);
