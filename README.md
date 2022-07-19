@@ -22,6 +22,7 @@ yolo.py中修改输出方式
  
  6.结果  
  
- ![image](https://user-images.githubusercontent.com/68861091/179707816-5a39d61c-15f3-49a1-b80c-7a01f1da472b.png)
+ ![image](https://user-images.githubusercontent.com/68861091/179720527-bc68aa1e-57ab-4df5-b423-5d1d0d5a82ba.png)
+
 
  
