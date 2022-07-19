@@ -10,7 +10,7 @@ if(OPENMP_FOUND)
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${OpenMP_EXE_LINKER_FLAGS}")
 endif()
 find_package(OpenCV REQUIRED)
-set(NCNN_DIR "/home/ubuntu/DHY/ncnn-master")
+set(NCNN_DIR "/home/ubuntu/DHY/ncnn-master")#修改为自己的ncnn安装路径
 
 include_directories(${PROJECT_SOURCE_DIR}/src)
 include_directories(${NCNN_DIR}/src)
