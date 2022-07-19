@@ -12,15 +12,17 @@ yolo.py中修改输出方式
 
 ![image](https://user-images.githubusercontent.com/68861091/179702312-fda93f87-c8ef-4e17-b9be-da5a60a25b45.png)  
 
-4.下载本项目，进入项目文件夹下  
+4.将onnx模型转为ncnn模型  https://convertmodel.com/  
 
-5.打开终端执行  
+5.下载本项目，进入项目文件夹下  
+
+6.打开终端执行  
  mkdir build  
  cd build  
  cmake ..  
  make  
  
- 6.结果  
+ 7.结果  
  
  ![image](https://user-images.githubusercontent.com/68861091/179720527-bc68aa1e-57ab-4df5-b423-5d1d0d5a82ba.png)
 
